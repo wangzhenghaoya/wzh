@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        table {
+            width: 10%;
+            max-width: 800px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        th, td {
+            border: 1px solid #e0e0e0;
+            padding: 12px 20px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        th {
+            background: linear-gradient(to right, #4b6cb7, #182848);
+            color: white;
+            font-weight: bold;
+        }
+        td {
+            vertical-align: middle;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .photo {
+            width: 180px;
+            height: 220px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+        .Stuff {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+        .section-title {
+            padding: 15px;
+            background: linear-gradient(to right, #4b6cb7, #182848);
+            color: white;
+            text-align: left;
+            font-size: 18px;
+            border-bottom: 2px solid #ddd;
+        }
+        .evaluation {
+            min-height: 100px;
+            text-align: left;
+            padding: 10px;
+        }
+        caption {
+            font-size: 24px;
+            color: #333;
+            padding: 15px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+        .highlight {
+            background-color: #e8f4f8;
+        }
+        .icon {
+            margin-right: 8px;
+            color: #4b6cb7;
+            width: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>个人简历</caption>
+        <tr>
+            <td class="Stuff"><i class="fas fa-user icon"></i>姓名</td>
+            <td>王政皓</td>
+            <td class="Stuff"><i class="fas fa-venus-mars icon"></i>性别</td>
+            <td>
+                <select>
+                    <option value="男">男</option>
+                    <option value="女">女</option>
+                </select>
+            </td>
+            <td class="Stuff"><i class="fas fa-birthday-cake icon"></i>年龄</td>
+            <td>19</td>
+            <td rowspan="3" width="136">
+                <img src="11.jpg" class="photo">
+            </td>
+        </tr>
+        <tr>
+            <td class="Stuff"><i class="fas fa-map-marker-alt icon"></i>籍贯</td>
+            <td>山东省日照市</td>
+            <td class="Stuff"><i class="fas fa-phone icon"></i>联系电话</td>
+            <td>18865687350</td>
+            <td class="Stuff"><i class="fas fa-envelope icon"></i>QQ</td>
+            <td>2506896167</td>
+        </tr>
+        <tr>
+            <td class="Stuff"><i class="fas fa-graduation-cap icon"></i>学历</td>
+            <td>
+                <select>
+                    <option value="小学">小学</option>
+                    <option value="中学">中学</option>
+                    <option value="专科">专科</option>
+                    <option value="本科">本科</option>
+                </select>
+            </td>
+            <td class="Stuff"><i class="fas fa-heartbeat icon"></i>健康状况</td>
+            <td>
+                <select>
+                    <option value="健康">健康</option>
+                    <option value="不健康">不健康</option>
+                </select>
+            </td>
+            <td class="Stuff"><i class="fas fa-ring icon"></i>婚姻状况</td>
+            <td>
+                <select>
+                    <option value="已婚">已婚</option>
+                    <option value="未婚">未婚</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="Stuff"><i class="fas fa-briefcase icon"></i>求职意向</td>
+            <td>
+                <select>
+                    <option value="工程师">工程师</option>
+                    <option value="设计师">设计师</option>
+                    <option value="分析师">分析师</option>
+                </select>
+            </td>
+            <td class="Stuff"><i class="fas fa-book icon"></i>专业</td>
+            <td colspan="2">
+                <select>
+                    <option value="软件工程">软件工程</option>
+                    <option value="其他">其他</option>
+                </select>
+            </td>
+            <td class="Stuff"><i class="fas fa-university icon"></i>毕业学校</td>
+            <td colspan="2">
+                <select>
+                    <option value="鲁东大学">鲁东大学</option>
+                    <option value="其他">其他</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="Stuff"><i class="fas fa-certificate icon"></i>技能证书</td>
+            <td colspan="7">无</td>
+        </tr>
+        <tr>
+            <td class="Stuff"><i class="fas fa-heart icon"></i>个人特长与爱好</td>
+            <td colspan="7">无</td>
+        </tr>
+        <tr>
+            <td class="Stuff"><i class="fas fa-project-diagram icon"></i>项目经历</td>
+            <td colspan="7">无</td>
+        </tr>
+        <tr>
+            <td class="Stuff"><i class="fas fa-comment-alt icon"></i>自我评价</td>
+            <td colspan="7">本人性格热情开朗，待人友好，为人诚实谦虚。工作勤奋，认真负责，能吃苦耐劳，尽职尽责，有耐心。具有亲和力，平易近人，善于与人沟通。学习刻苦认真，成绩优秀，名列前茅。品学兼优。
+积极主动、独立性强、具有高度的职责感和敬业精神，待人真诚、诚实守信、团结协作意识强，能够吃苦耐劳，勇于挑战新事物，具有必须的开阔创新潜力，“踏实做事，诚实做人”是我为人处世的原则。积极参加课外文体活动，各种社会实践活动和工作等，以增加自己的阅历，提高自己的潜力</td>
+        </tr>
+    </table>
+</body>
+</html>    
